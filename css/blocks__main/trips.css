@@ -1,0 +1,68 @@
+.trips {
+    margin-bottom: 127px;
+}
+.trips__hot {
+    color: #fff;
+    margin-bottom: 58px;
+}
+.trops__hot-text {
+    display: inline-block;
+    font-size: 36px;
+    font-weight: 700;
+    margin-right: 12px;
+}
+.trips__block {
+    display: flex;
+    justify-content: space-between;
+}
+.trips__card {
+    border-radius: 5px;
+    background-color: #fff;
+    margin-right: 27px;
+    flex: 1;
+}
+.trips__card:last-child {
+    margin-right: 0;
+}
+.trips__photo {
+    width: 100%;
+    height: 144px;
+}
+.trips__content {
+    padding: 30px 16px 26px 22px;
+}
+.trips__name {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 21px; 
+}
+.trips__services {
+    display: inline-block;
+    color: #666666;
+    font-size: 16px;
+    padding-left: 6px;
+    margin-bottom: 19px;
+}
+.trips__services-block {
+    display: inline-block;
+    margin-right: 25px;
+}
+.trips__services-block:nth-child(3) {
+    margin-right: 0;
+}
+.trips__services-item {
+    margin-right: 10px;
+}
+.trips__services-text {
+    display: inline-block;
+    align-items: center;
+}
+.trips__services-text:last-child {
+    margin-right: 0;
+}
+.trips__discription {
+    line-height: 1.8;
+    color: #303030;
+    margin-bottom: 19px;
+}

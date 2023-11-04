@@ -1,0 +1,18 @@
+.networks {
+    margin-right: 73px;
+}
+.networks__block {
+    display: flex;
+}
+.networks__block-item {
+    margin-right: 11px;
+}
+.networks__block-item:last-child {
+    margin-right: 0;
+}
+.networks__block-link {
+    filter: grayscale(1);
+}
+.networks__block-link:hover {
+    filter: grayscale(0);
+}

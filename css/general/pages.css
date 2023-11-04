@@ -1,0 +1,40 @@
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pages__display {
+    font-size: 16px;
+    margin-right: 38px;
+}
+.pages__numbers {
+    display: flex;
+    align-items: center;
+}
+.pages__numbers-item {
+    display: flex;
+    justify-content: center;   
+}
+.pages__numbers-link {
+    padding: 1px 12px;
+    border-radius: 50px;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    transition: .4s;   
+}
+.pages__numbers-link:hover {
+    background-color: #fff;
+    color: #F5170E;
+}
+.pages--black {
+    margin-bottom: 65px;
+}
+.pages--black .pages__numbers-link {
+    color: #000;
+}
+.pages--black .pages__numbers-link:hover {
+    background-color: #F5170E;
+    color: #fff;
+}

@@ -1,0 +1,34 @@
+.partners {
+    background-color: #F4F5F5;
+}
+.partners__title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #1a1b1e;
+    padding-top: 107px;
+    margin-bottom: 90px;
+}
+.partners__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 112px;
+}
+.partners__block-item  {
+    display: flex;
+    width: 25%; 
+    margin-bottom: 76px;
+}
+.partners__block-item:nth-child(4n) {
+    justify-content: flex-end;
+}
+.partners__block-item:nth-child(n + 5) {
+    margin-bottom: 0;
+}
+.partners__block-link {
+    filter: grayscale(1);
+}
+.partners__block-link:hover  {
+    filter: grayscale(0);
+}

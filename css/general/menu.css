@@ -1,0 +1,12 @@
+.menu__block {
+    display: flex;
+}
+.menu__block-item  {
+    margin-right: 54px;
+}
+.menu__block-item:last-child {
+    margin-right: 0;
+}
+.menu__block-link:hover {
+    color: #DA0100;
+}

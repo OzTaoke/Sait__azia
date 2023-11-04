@@ -1,0 +1,21 @@
+.breadcrumbs {
+    padding-bottom: 23px;
+}
+.breadcrumbs__block {
+    display: flex;
+}
+.breadcrumbs__block-item:after {
+    content: "/";
+    color: #9A9A9A;
+    margin: 0 2px;
+}
+.breadcrumbs__block-item:last-child:after {
+    display: none;
+}
+.breadcrumbs__block-link {
+    color: #9A9A9A;
+    text-decoration: underline;
+}
+.breadcrumbs__block-link--active {
+    font-weight: 700;
+}

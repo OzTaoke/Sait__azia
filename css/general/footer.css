@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 42px 0 57px 0;
+}
+.footer--main {
+    border-top: rgba(255, 255, 255, .1) 1px solid;
+}
+.footer__col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .contacts {
+    line-height: 1.6;
+}
+.footer .contacts__workhours {
+    color: #9A9A9A;
+    text-decoration: none;
+    font-size: 11px;
+}

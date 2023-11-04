@@ -1,0 +1,30 @@
+.info {
+    margin-bottom: 53px;
+}
+.info__content {
+    display: flex;
+}
+.info__photo {
+    max-width: 490px;
+    max-height: 505px;
+    border-radius: 5px;
+}
+.info__about {
+    border-radius: 5px;
+    background: url(../../image/main/mountains.png) center center no-repeat;
+    padding: 70px 209px 66px 81px;
+    margin-left: -140px;
+    margin-top: 97px;
+}
+.info__about-title {
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+.info__about-text {
+    color: #060606;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 43px;
+}
