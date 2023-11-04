@@ -14,6 +14,8 @@
     min-height: 394px;
 }
 .news__card {
+    display: flex;
+    flex-direction: column;
     margin-right: 20px;
     flex: 1;
     padding: 252px 32px 0 30px;
@@ -28,11 +30,9 @@
     background: url(../../image/main/surfer.png) center center no-repeat;
 }
 .news__card-date {
-    display: flex;
     margin-bottom: 23px;
 }
 .news__card-name {
-    display: flex;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 8px;
