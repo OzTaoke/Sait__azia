@@ -20,12 +20,12 @@
             <div class="conteiner conteiner--services">
                 <header class="header header--services">
                     <div class="header__col">
-                        <a href="index.html" class="logo"><img src="image/services/logo.png" alt="logo" class="logo__img"></a>
+                        <a href="start.html" class="logo"><img src="image/services/logo.png" alt="logo" class="logo__img"></a>
                         <nav class="menu">
                             <ul class="menu__block">
-                                <li class="menu__block-item"><a href="index.html" class="menu__block-link">Главная</a></li>
+                                <li class="menu__block-item"><a href="start.html" class="menu__block-link">Главная</a></li>
                                 <li class="menu__block-item"><a href="services.html" class="menu__block-link">Услуги</a></li>
-                                <li class="menu__block-item"><a href="reviews.html" class="menu__block-link">Отзывы</a></li>
+                                <li class="menu__block-item"><a href="reviews.html" class="menu__block-link menu__block-link--active">Отзывы</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -64,11 +64,8 @@
                                         <img src="image/reviews/one.png" alt="" class="reviews__card-image">
                                     </div>
                                     <div class="reviews__card-person">
-                                        <div class="reviews__card-top">
-                                            <a href="" class="reviews__card-name">Иван Петрович</a>
-                                            <img src="image/reviews/vk.png" alt="" class="reviews__card-icon">
-                                        </div>
-                                        <a href="#" class="reviws__card-link">Водопад Янг-бей</a>
+                                        <a href="#" class="reviews__card-name">Иван Петрович</a>
+                                        <a href="#" class="reviws__card-link tag">Водопад Янг-бей</a>
                                     </div>
                                 </div>
                                 <div class="reviews__card-content">
@@ -83,11 +80,8 @@
                                         <img src="image/reviews/three.png" alt="" class="reviews__card-image">
                                     </div>
                                     <div class="reviews__card-person">
-                                        <div class="reviews__card-top">
-                                            <a href="" class="reviews__card-name">Лиза Сидорова</a>
-                                            <img src="image/reviews/vk.png" alt="" class="reviews__card-icon">
-                                        </div>
-                                        <a href="#" class="reviws__card-link">Тур по Тайланду</a>
+                                        <a href="" class="reviews__card-name">Лиза Сидорова</a>
+                                        <a href="#" class="reviws__card-link tag">Тур по Тайланду</a>
                                     </div>
                                 </div>
                                 <div class="reviews__card-content">
@@ -102,11 +96,8 @@
                                         <img src="image/reviews/two.png" alt="" class="reviews__card-image">
                                     </div>
                                     <div class="reviews__card-person">
-                                        <div class="reviews__card-top">
-                                            <a href="" class="reviews__card-name">Екатерина Жмых</a>
-                                            <img src="image/reviews/vk.png" alt="" class="reviews__card-icon">
-                                        </div>
-                                        <a href="#" class="reviws__card-link">Тур на Остров обезьян</a>
+                                        <a href="" class="reviews__card-name">Екатерина Жмых</a>
+                                        <a href="#" class="reviws__card-link tag">Тур на Остров обезьян</a>
                                     </div>
                                 </div>
                                 <div class="reviews__card-content">
@@ -121,11 +112,8 @@
                                         <img src="image/reviews/four.png" alt="" class="reviews__card-image">
                                     </div>
                                     <div class="reviews__card-person">
-                                        <div class="reviews__card-top">
-                                            <a href="" class="reviews__card-name">Антон Игоревич</a>
-                                            <img src="image/reviews/vk.png" alt="" class="reviews__card-icon">
-                                        </div>
-                                        <a href="#" class="reviws__card-link">Тур по Индонезии</a>
+                                        <a href="" class="reviews__card-name">Антон Игоревич</a>
+                                        <a href="#" class="reviws__card-link tag">Тур по Индонезии</a>
                                     </div>
                                 </div>
                                 <div class="reviews__card-content">
@@ -154,8 +142,7 @@
                 <div class="conteiner">
                     <div class="offer__content">
                         <div class="offer__title">
-                            <h2 class="offer__title-text">Подберем тур</h2>
-                            <h2 class="offer__title-text">по вашим пожеланиям </h2>
+                            <h2 class="offer__title-text">Подберем тур <br> по вашим пожеланиям</h2>
                         </div>
                         <img src="image/reviews/couple.png" alt="humen" class="offer__photo">
                     </div> 
@@ -168,51 +155,53 @@
                         <div class="feedback__block">
                             <input type="text" class="feedback__block-item" placeholder="Ваше имя">
                             <input type="text" class="feedback__block-item" placeholder="Ссылка на профиль VK">
-                            <textarea name="" class="feedback__block-item feedback__block-item--reviews" placeholder="Напишите свой честный отзыв ;)" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="feedback__block">
+                            <textarea name="" class="feedback__block-item feedback__block-item--reviews" placeholder="Напишите свой честный отзыв ;)"></textarea>
                         </div>
                         <div class="feedback__pages">
                             <div class="feedback__display">Какими услугами компании пользуетесь?</div>
                                 <ul class="feedback__select">
                                     <li class="feedback__select-item">
                                         <label>
-                                            <input type="radio" name="feedback__select-input" class="feedback__select-input">
-                                            <div class="feedback__select-text">Остров обезьян</div>
+                                            <input type="checkbox" name="feedback__select-input" class="feedback__select-input">
+                                            <div class="feedback__select-text tag">Остров обезьян</div>
                                         </label>
                                     </li>
                                     <li class="feedback__select-item">
                                         <label>
-                                            <input type="radio" name="feedback__select-input" class="feedback__select-input">
-                                            <div class="feedback__select-text">Тур по Тайланду</div>
+                                            <input type="checkbox" name="feedback__select-input"  class="feedback__select-input">
+                                            <div class="feedback__select-text tag">Тур по Тайланду</div>
                                         </label>
                                     </li>
                                     <li class="feedback__select-item">
                                         <label>
-                                            <input type="radio" name="feedback__select-input" class="feedback__select-input">
-                                            <div class="feedback__select-text">Водопад Янг-бей</div>
+                                            <input type="checkbox" name="feedback__select-input" class="feedback__select-input">
+                                            <div class="feedback__select-text tag">Водопад Янг-бей</div>
                                         </label>
                                     </li>
                                     <li class="feedback__select-item">
                                         <label>
-                                            <input type="radio" name="feedback__select-input" class="feedback__select-input">
-                                            <div class="feedback__select-text">Тур по Индонезии</div>
+                                            <input type="checkbox" name="feedback__select-input" class="feedback__select-input">
+                                            <div class="feedback__select-text tag">Тур по Индонезии</div>
                                         </label>
                                     </li>
                                     <li class="feedback__select-item">
                                         <label>
-                                            <input type="radio" name="feedback__select-input" class="feedback__select-input">
-                                            <div class="feedback__select-text">Никакими</div>
+                                            <input type="checkbox" name="feedback__select-input" class="feedback__select-input">
+                                            <div class="feedback__select-text tag">Никакими</div>
                                         </label>
                                     </li>
                                     <li class="feedback__select-item">
                                         <label>
-                                            <input type="radio" name="feedback__select-input" class="feedback__select-input">
-                                            <div class="feedback__select-text">Тур по Бали</div>
+                                            <input type="checkbox" name="feedback__select-input" class="feedback__select-input">
+                                            <div class="feedback__select-text tag">Тур по Бали</div>
                                         </label>
                                     </li>
                                     <li class="feedback__select-item">
                                         <label>
-                                            <input type="radio" name="feedback__select-input" class="feedback__select-input">
-                                            <div class="feedback__select-text">Другое</div>
+                                            <input type="checkbox" name="feedback__select-input" class="feedback__select-input">
+                                            <div class="feedback__select-text tag">Другое</div>
                                         </label>
                                     </li>
                                 </ul>
@@ -229,12 +218,12 @@
             <div class="conteiner">
                 <footer class="footer">
                     <div class="footer__col">
-                        <a href="index.html" class="logo"><img src="image/services/logo.png" alt="logo" class="logo__img"></a>
+                        <a href="start.html" class="logo"><img src="image/services/logo.png" alt="logo" class="logo__img"></a>
                         <nav class="menu">
                             <ul class="menu__block">
-                                <li class="menu__block-item"><a href="index.html" class="menu__block-link">Главная</a></li>
+                                <li class="menu__block-item"><a href="start.html" class="menu__block-link">Главная</a></li>
                                 <li class="menu__block-item"><a href="services.html" class="menu__block-link">Услуги</a></li>
-                                <li class="menu__block-item"><a href="reviews.html" class="menu__block-link">Отзывы</a></li>
+                                <li class="menu__block-item"><a href="reviews.html" class="menu__block-link menu__block-link--active">Отзывы</a></li>
                             </ul>
                         </nav>
                     </div>

@@ -17,28 +17,32 @@
     margin-bottom: 27px;
 }
 .reviews__card-photo {
+    background-repeat: 50px;
+    overflow: hidden;
     margin-right: 22px;
 }
-.reviews__card-top {
+.reviews__card-person {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     margin-bottom: 20px;
 }
 .reviews__card-name {
     color: #1A1B1E;
     font-size: 24px;
     font-weight: 700;
-    margin-right: 7px;
+    margin-bottom: 15px;
+}
+.reviews__card-name::after {
+    content: url(../../image/reviews/vk.png);
+    padding-left: 7px;
 }
 .reviews__card-name:hover {
     text-decoration: underline;
     color: #2E77A4;
 }
 .reviws__card-link {
-    color: #303030;
-    font-size: 13px;
-    padding: 10px 17px;
     background-color: #B9EAE4;
-    border-radius: 35px;
 }
 .reviews__card-title {
     font-size: 30px;

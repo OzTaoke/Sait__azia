@@ -65,6 +65,15 @@ button {
 .button--big {
     padding: 18px 40px;
 }
+.tag {
+    cursor: pointer;
+    text-align: center;
+    color: #303030;
+    font-size: 13px;
+    padding: 10px 17px;
+    background-color: #E7E7E7;
+    border-radius: 35px;
+}
 .wrapper--background {
     background: url(../../image/main/fon1.jpg) center top no-repeat, url(../../image/main/fon2.png) center bottom 163px no-repeat;
     background-color: #001821;
