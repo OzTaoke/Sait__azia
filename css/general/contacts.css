@@ -13,4 +13,40 @@
 }
 .contacts__workhours:hover {
     color: #fff;
+    transition: .4s;
+}
+.contacts__menu {
+    position: relative;
+}
+.contacts__dropdown {
+    position: absolute;
+    top: 100%;
+    left: -9999px;
+    opacity: 0;
+    transition: opacity .8s;
+}
+.contacts__dropdown-block {
+    height: 80px;
+    width: 160px;
+    padding-top: 25px;
+    padding-left: 18px;
+    background: url(../../image/general/dropdown.png) center center no-repeat;
+    border-radius: 9px;
+}
+.contacts__dropdown-item {
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #1E1F20;
+    font-weight: 400;
+}
+.contacts__dropdown-item:last-child {
+    margin-bottom: 0;
+}
+.contacts__dropdown-item--dark {
+    font-weight: 700;
+}
+
+.contacts__menu:hover .contacts__dropdown {
+    left: 30px;
+    opacity: 1;
 }

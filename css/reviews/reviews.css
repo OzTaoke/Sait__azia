@@ -1,0 +1,58 @@
+.reviews__content {
+    display: flex;
+    margin-bottom: 70px;
+}
+.reviews__block {
+    column-count: 2;
+    column-gap: 26px;
+}
+.reviews__card {
+    background-color: #F4F5F5;
+    margin-bottom: 17px;
+    padding: 50px 31px 32px 31px;
+}
+.reviews__card-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+.reviews__card-photo {
+    margin-right: 22px;
+}
+.reviews__card-top {
+    display: flex;
+    margin-bottom: 20px;
+}
+.reviews__card-name {
+    color: #1A1B1E;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 7px;
+}
+.reviews__card-name:hover {
+    text-decoration: underline;
+    color: #2E77A4;
+}
+.reviws__card-link {
+    color: #303030;
+    font-size: 13px;
+    padding: 10px 17px;
+    background-color: #B9EAE4;
+    border-radius: 35px;
+}
+.reviews__card-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #1A1B1E;
+    margin-bottom: 13px;
+}
+.reviews__card-description {
+    font-size: 16px;
+    color: #818181;
+    line-height: 1.6;
+    margin-bottom: 48px;
+}
+.reviews__card-date {
+    font-weight: 600;
+    color: #1A1B1E;
+}

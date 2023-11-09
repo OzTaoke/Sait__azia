@@ -18,12 +18,20 @@ a {
 address {
     font-style: normal;   
 }
+input , textarea {
+    outline: none;
+}
+button {
+    border: none;
+    cursor: pointer;
+}
 .button {
     display: inline-block;
     background-color: transparent;
     border-radius: 35px;
     text-transform: uppercase;
     font-weight: 700;
+    transition: .4s;
 }
 .button--red {
     color: #fff;
@@ -31,6 +39,7 @@ address {
 }
 .button--red:hover {
     background-color: #DA0100;
+    box-shadow: 0px 2px 4px 0px rgba(218, 1, 0, 0.3);
 }
 .button--white {
     border: #F5170E 1px solid;
@@ -40,8 +49,18 @@ address {
     background-color: #F5170E;
     color: #fff;
 }
+.button--black {
+    background-color: #8E8E8E;
+    color: #fff;
+}
+.button--black:hover {
+    background-color: #2B2B2B;
+}
 .button--small {
     padding: 18px 29px;
+}
+.button--middle {
+    padding: 18px 52px;
 }
 .button--big {
     padding: 18px 40px;

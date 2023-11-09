@@ -1,0 +1,15 @@
+.offer {
+    background: url(../../image/reviews/Rectangle.png) center center no-repeat;
+}
+.offer__content {
+    display: flex;
+    padding-top: 21px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer__title-text {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+}

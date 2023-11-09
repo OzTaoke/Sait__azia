@@ -31,4 +31,5 @@
 }
 .partners__block-link:hover  {
     filter: grayscale(0);
+    transition: .8s;
 }

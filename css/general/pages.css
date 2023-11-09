@@ -24,6 +24,10 @@
     line-height: 32px;
     transition: .4s;   
 }
+.pages__numbers-link--active {
+    background-color: #fff;
+    color: #F5170E;
+}
 .pages__numbers-link:hover {
     background-color: #fff;
     color: #F5170E;
@@ -33,6 +37,10 @@
 }
 .pages--black .pages__numbers-link {
     color: #000;
+}
+.pages--black .pages__numbers-link--active {
+    background-color: #F5170E;
+    color: #fff;
 }
 .pages--black .pages__numbers-link:hover {
     background-color: #F5170E;
