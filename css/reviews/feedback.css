@@ -1,22 +1,22 @@
 .feedback {
     background-color: #F4F5F5;
     padding-top: 62px;
-    padding-bottom: 96px;
+    padding-bottom: 99px;
 }
 .feedback__title {
     font-size: 48px;
     font-weight: 700;
     color: #1A1B1E;
-    margin-bottom: 57px;
+    margin-bottom: 67px;
 }
 .feedback__block {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 26px;
+    margin-bottom: 32px;
 }
-.feedback__block:last-child {
-    margin-bottom: 0;
+.feedback__block:nth-child(2) {
+    margin-bottom: 24px;
 }
 .feedback__block-item {
     width: calc(100% / 2 - 14px);
@@ -27,7 +27,6 @@
 }
 .feedback__block-item--reviews {
     width: 100%;
-    margin-bottom: 0;
     height: 235px;
     resize: none;
 }
@@ -42,6 +41,7 @@
 .feedback__display {
     display: inline-block;
     font-size: 18px;
+    padding-top: 10px;
     width: 38%;
 }
 .feedback__select {
@@ -74,7 +74,7 @@
     justify-content: flex-end ;
 }
 .feedback__button .button {
-    margin-right: 17px;
+    margin-right: 29px;
 }
 .feedback__button .button:last-child {
     margin-right: 0;

@@ -74,6 +74,9 @@ button {
     background-color: #E7E7E7;
     border-radius: 35px;
 }
+.wrapper {
+    overflow: hidden;
+}
 .wrapper--background {
     background: url(../../image/main/fon1.jpg) center top no-repeat, url(../../image/main/fon2.png) center bottom 163px no-repeat;
     background-color: #001821;
