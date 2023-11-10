@@ -13,7 +13,7 @@
     align-items: center;
     padding-top: 52px;
     opacity: 0;
-    animation: start forwards 0.8s ease-in-out;
+    animation: start forwards 0.8s ease-in;
 }
 .start__content {
     display: flex;
@@ -32,16 +32,17 @@
 }
 @keyframes start {
     0% {
-        transform: scale(0.7);
+        opacity: 1;
+        transform: scale(0.8);
     }
     20% {
-        transform: scale(1.3);
+        transform: scale(1.2);
     }
     50% {
         transform: scale(0.9);
     }
     70% {
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
     90% {
         transform: scale(0.95);
