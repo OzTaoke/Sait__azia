@@ -11,7 +11,7 @@
     font-size: 13px;
     color: #98A4A8;
 }
-.contacts__workhours:hover {
+.contacts__menu:hover .contacts__workhours{
     color: #fff;
     transition: .4s;
 }
