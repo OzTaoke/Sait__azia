@@ -39,7 +39,7 @@
     content: "";
     position: absolute;
     top: 0px;
-    left: 100px;
+    right: 40px;
     border: 10px solid transparent;
     border-bottom-color: #CDD1D2;
     border-top-width: 0;
