@@ -13,7 +13,7 @@
     align-items: center;
     padding-top: 52px;
     opacity: 0;
-    animation: start forwards 1.4s ease-in-out;
+    animation: start forwards 0.8s ease-in-out;
 }
 .start__content {
     display: flex;
@@ -35,7 +35,7 @@
         transform: scale(0.7);
     }
     20% {
-        transform: scale(1.4);
+        transform: scale(1.3);
     }
     50% {
         transform: scale(0.9);
