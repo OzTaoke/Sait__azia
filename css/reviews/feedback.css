@@ -23,6 +23,7 @@
     font-size: 18px;
     color: #1A1B1E;
     border: 1px solid transparent;
+    border-radius: 5px;
     padding: 19px 0 21px 30px;
 }
 .feedback__block-item--reviews {
